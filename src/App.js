@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path='/'>
-          <Home />
+          <Home className={styles.home} />
         </Route>
         <Route path='/carnes'>
           <Category category='Carnes' />
