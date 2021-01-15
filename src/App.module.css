@@ -1,0 +1,14 @@
+body {
+  background-color: #61a1391c;
+  padding-top: 11em;
+}
+@media (max-width: 978px) {
+  body {
+    padding-top: 7em;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: montserrate;
+}
